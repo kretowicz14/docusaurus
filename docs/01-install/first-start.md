@@ -6,7 +6,7 @@ sidebar_position: 1
 
 BeagleBone shortcut is BBB.
 
-1. Connect BeagleBone to boneIO and plug-in network cable.
+1. Connect BeagleBone to boneIO backplane and plug-in network cable.
 2. Find BBB in your network.
 3. Connect via ssh with username **debian**. Default password is **temppwd**.
 4. Change default password by running
@@ -29,7 +29,7 @@ reboot
 
 ## Add uEnv to enable all possible PINS
 
-Edit `/boot/uEnv.txt` and uncomment following lines
+Edit `/boot/uEnv.txt` and uncomment following lines  (eg by using `nano`)
 
 ```bash
 disable_uboot_overlay_video=1
@@ -55,7 +55,7 @@ reboot
 sudo apt-get install libopenjp2-7-dev libatlas-base-dev python3-venv
 ```
 
-Now there are 2 ways to install BoneIO app.
+There are 2 ways to install BoneIO app.
 
 ## Semi auto installation
 

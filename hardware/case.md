@@ -7,7 +7,7 @@ title: Case
 
 ## 3D Model
 
-This is a 3d model of the case with electronic assembly.
+This is a 3D model of the case with electronic components assembly.
 
 <iframe src="https://myhub.autodesk360.com/ue28f460a/g/shares/SH9285eQTcf875d3c5392fc876974a3e3df6?viewState=NoIgbgDAdAjCA0IDeAdEAXAngBwKZoC40ARXAZwEsBzAOzXjQEMyzd1C0AWAMwBMBWCACMAzAE4AtAHYRQoRJ64REgByMxKiTH4iATEIBsjGGKmcpaAL4gAukA" allowfullscreen="true"
 webkitallowfullscreen="true" mozallowfullscreen="true"
@@ -45,7 +45,7 @@ width="100%" height="480" frameborder="0"></iframe>
 
 ## Printing Setup
 
-You need 3d printer with the bed that has at least 27cm in the longest side for example Creality Ender 5 Plus.
+You need a 3D printer with the bed that has at least 27cm in the longest side. For example Creality Ender 5 Plus.
 
 Prefered material is: **PET-G** - it is pretty easy to print and it is more resistant to temperature than PLA.
 
@@ -62,9 +62,9 @@ Below you can find timelapse of printint the front part of the case:
 
 ## Assembling boards in case
 
-Avoid plugging boards without a case. The case has been designed so as not to allow the boards to be inserted incorrectly.
+Avoid plugging boards without a case. The case has been specifically designed so as not to allow the boards to be inserted incorrectly.
 
-Be very careful when connecting individual boards and avoid to shift the pins in the connectors - it can lead to permanent damage to the electronic components.
+Be very careful when connecting individual boards and avoid to shift the pins in the connectors - it can lead to a permanent damage to the electronic components.
 
 Follow the instructions in this video to assemble the case with the boards.
 
@@ -72,7 +72,7 @@ Follow the instructions in this video to assemble the case with the boards.
 
 ## Temperature distribution
 
-Test of the heat dissipation was made with Relay Board 24x16A with all relays turned on without any load. Photos was made after about 24 hours when the temperature was stabilized.
+Heat dissipation test was made with Relay Board 24x16A, with all the relays turned on without any load attached. Photos were made after about 24 hours, when the temperature has stabilized.
 
 ![Flir1](/img/FLIR1.jpg)
 

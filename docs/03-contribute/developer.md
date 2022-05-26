@@ -6,7 +6,8 @@ sidebar_position: 2
 
 ## Prepare VENV
 
-Create fork on https://github.com/boneIO-eu/app_bbb.git
+Create fork on https://github.com/boneIO-eu/app_bbb.git and clone it on beagleboard using command below.
+replace last line with your forked repo.
 
 ![Fork](/img/fork.png)
 
@@ -15,10 +16,10 @@ mkdir ~/boneio_development
 python3 -m venv ~/boneio_development/venv
 source ~/boneio_development/venv/bin/activate
 cd ~/boneio_development
-git clone git@github.com/yourusername/app_bbb.git
+git clone git@github.com/<yourusername>/app_bbb.git
 ```
 
-In below instruction I assume you still in activated venv.
+Below instruction assume you are still in activated venv.
 
 ```
 source ~/boneio_development/venv/bin/activate

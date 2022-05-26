@@ -23,7 +23,7 @@ output:
 
 ## Configuration variables:
 
-- **id** (_Optional_, string, default: value of `{kind}_{pin}`) - ID to use. It's used for GPIO input actions and send to HA.
+- **id** (_Optional_, string, default: value of `{kind}_{pin}`) - uniquely identifies this device in MQTT and Home Assistant.
 - **kind** (**Required**, string, allowed_values: `['gpio', 'mcp']`) - What kind of output it is. For relay board alwas use `mcp`
 - **pin** (**Required**, string) - PIN id of MCP of GPIO. For MCP it's value 0-15.
 - **output_type** (**Required**, string, allowed_values: `['switch', 'light', 'none']`) - What type of output it is. Switch/light shows as such device in Home Assistant. Value none means that this output is not published to MQTT. It's internal use only for other component eg cover.

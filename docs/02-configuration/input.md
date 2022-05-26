@@ -7,8 +7,8 @@ sidebar_position: 9
 ![Input](/img/input.png)
 
 GPIO Inputs used in input board.
-For switch mode mqtt message is send for actions single, double and long presses.
-For sensor mode mqtt message is send for actions pressed, released.
+For switch mode mqtt message is send for actions `single`, `double` and `long` presses.
+For sensor mode mqtt message is send for actions `pressed`, `released`.
 
 ## Example config
 
@@ -37,7 +37,7 @@ input:
 
 ## Configuration variables:
 
-- **id** (_Optional_, string, default: value of `{pin}`) - ID to use to name this device in MQTT and Home Assistant.
+- **id** (_Optional_, string, default: value of `{pin}`) - uniquely identifies this device in MQTT and Home Assistant.
 - **pin** (**Required**, string) - GPIO id of Beaglebone board eg `P9_33`.
 - **gpio_mode** (_Optional_, string, default: `gpio`, allowed_values: `['gpio', 'gpio_pu', 'gpio_pd', 'gpio_input']`) - How to run this gpio. gpio means default gpio mode. gpio_pu = gpio pull up, gpio_pd = gpio pull down, gpio_input - to be checked.
 - **bounce_time** (_Optional_, timeperiod, default: 25 ms) - bounce time for GPIO to invoke callback. Use if default doesn't work for you. Making it to high might break click events functions for switch kind.

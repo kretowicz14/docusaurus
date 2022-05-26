@@ -25,7 +25,7 @@ boneIO is a compact IO controller for home automation. Main features of this con
 - 52 digital inputs
 - 7 analog to digital converters
 - I2C
-- RS485
+- RS485 (used eg. for Modbus)
 - OLED display
 - user switch
 - 24V PSU input
@@ -40,7 +40,7 @@ You can choose from many different output boards:
 - Shutter Board 32x10A - for switching up & down roller blinds motors
 - SSR Dimmer Board - for dimmable light bulbs
 
-Every output board use i2c interface to connect to BBB. Output board could be used inside the main controller or outside as a expansion module.
+Every output board uses I2C interface to connect to BBB. Output board could be used inside the main controller or outside as an expansion module.
 
 ![Boards](/img/boards.jpg)
 
@@ -56,7 +56,7 @@ With all elements in place, you can assemble a complete device. You can use it a
 
 ## Star topology
 
-boneIO was designed to work with star topology. That's mean that you have specific cable to every electrical point for example every lamp and every switch should be connected directly to boneIO.
+boneIO was designed to work with star topology. That means, that you have dedicated cable to every electrical point. For example every lamp and every switch (that you wish to independantly control) should be connected directly to boneIO via seperate electrical wire.
 
 Here you can find some info how to plan this kind of electrical instalation:
 
@@ -64,7 +64,7 @@ Here you can find some info how to plan this kind of electrical instalation:
 
 ## Board labels
 
-Below are labels which you can print and attach on your boneIO case.
+Below are printable labels, that you can attach on your boneIO case.
 
 ### v0.2 v0.3
 

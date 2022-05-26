@@ -8,7 +8,7 @@ sidebar_position: 1
 
 Mqtt client component connects to your mqtt broker.
 
-This broker for most cases should be the same broker as Home Assistant broker, so you can't directly see new device with HA MQTT discovery option.
+This broker, for most cases, should be the same broker as the one used by Home Assistant, so you can directly see new devices with HA MQTT auto-discovery option.
 
 ## Example config
 
@@ -25,10 +25,10 @@ mqtt:
 ## Configuration variables:
 
 - **host** (**Required**, string) - Mqtt broker hostname or IP address
-- **username** (Optional, string) - Username to connect ot mqtt broker
+- **username** (Optional, string) - Username to connect to mqtt broker
 - **password** (Optional, string) - Password to mqtt broker
 - **port** (_Optional_, integer, default: 1883) - Port to connect to mqtt broker
-- **topic_prefix** (_Optional_, string, default: boneIO) - Prefix topic for boneIO to use. It's means that this name will be used in HomeAssistant.
+- **topic_prefix** (_Optional_, string, default: boneIO) - Prefix topic for boneIO to use. This text will be used in HomeAssistant.
 - **ha_discovery**:
   - **enabled** (_Optional_, boolean, default: True) - Enable HA discovery
   - **topic_prefix** (_Optional_, string, default: homeassistant) - Topic prefix which HomeAssistant uses for MQTT discovery.

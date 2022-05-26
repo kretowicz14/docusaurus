@@ -24,11 +24,11 @@ cover:
 
 ## Configuration variables:
 
-- **id** (**Required**, string) - ID to use for cover.
-- **open_relay** (**Required**, string) - Relay ID which open cover. It has to be set in `output` section.
-- **close_relay** (**Required**, string) - Relay ID which close cover. It has to be set in `output` section.
-- **open_time** (**Required**, timeperiod) - Time to open cover. Example 20 seconds.
-- **close_time** (**Required**, timeperiod) - Time to close cover. Example 30 sec.
+- **id** (**Required**, string) - uniquely identifies this device in MQTT and Home Assistant.
+- **open_relay** (**Required**, string) - Relay ID which opens a cover. It has to be set in `output` section.
+- **close_relay** (**Required**, string) - Relay ID which closes a cover. It has to be set in `output` section.
+- **open_time** (**Required**, timeperiod) - Time to open a cover. Example 20 seconds.
+- **close_time** (**Required**, timeperiod) - Time to close a cover. Example 30 sec.
 - **device_class** (Optional, string, allowed_values: `['awning', 'blind', 'curtain', 'damper', 'door', 'garage', 'gate', 'shade', 'shutter', 'window']`) - Type of device to see in Home Assistant.
 - **show_in_ha** (_Optional_, boolean, default: True) - Send autodiscovery message to Home Assistant.
 - **restore_state** (_Optional_, boolean, default: False) - You can enable restore_state option. It's bit experimental. It saves state of relay or cover in `state.json` file, which is located in same directory as your `config.json`. **If `output_type` is None, then this value is overwritten to False!**

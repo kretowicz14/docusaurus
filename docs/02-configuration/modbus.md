@@ -6,7 +6,7 @@ sidebar_position: 4
 
 ![Modbus](/img/modbus.png)
 
-Modbus component to use for modbus sensor usage.
+Modbus component to use with modbus devices.
 
 ## Example config
 

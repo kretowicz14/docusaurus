@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Modbus sensor
 
-Adding modbus sensor is pretty easy.
+Adding a modbus sensor is pretty easy.
 Follow developer guide in this section, copy eg sdm120.json to be your template (https://raw.githubusercontent.com/boneIO-eu/app_bbb/dev/boneio/sensor/modbus/sdm120.json)
 
 ## Configuration variables:
