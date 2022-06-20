@@ -120,7 +120,7 @@ const config = {
           },
           {
             href: 'https://github.com/sponsors/maciejkrasuski',
-            label: 'Sponsor',
+            label: 'Sponsor us!',
             position: 'right',
           },
         ],
@@ -166,7 +166,7 @@ const config = {
                 href: 'https://github.com/boneIO-eu/boneIO',
               },
               {
-                label: 'Sponsor',
+                label: 'Sponsor us!',
                 href: 'https://github.com/sponsors/maciejkrasuski',
               },
             ],
