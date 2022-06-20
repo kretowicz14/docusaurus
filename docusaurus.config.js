@@ -118,6 +118,11 @@ const config = {
             label: 'GitHub',
             position: 'right',
           },
+          {
+            href: 'https://github.com/sponsors/maciejkrasuski',
+            label: 'Sponsor',
+            position: 'right',
+          },
         ],
       },
       footer: {
@@ -159,6 +164,10 @@ const config = {
               {
                 label: 'GitHub',
                 href: 'https://github.com/boneIO-eu/boneIO',
+              },
+              {
+                label: 'Sponsor',
+                href: 'https://github.com/sponsors/maciejkrasuski',
               },
             ],
           },
