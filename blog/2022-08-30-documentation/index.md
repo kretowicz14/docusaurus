@@ -7,7 +7,7 @@ tags: [boneio, docasaurus]
 
 Hi, this post will be guide how to write documentation of the boneIO, so users can easily contribute to this site.
 The pages are written in [Markdown](http://daringfireball.net/projects/markdown/).
-A
+
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/boneIO-eu/docusaurus)
 
 Just wait for a moment and you'll see: `Docusaurus website is running at:`.
