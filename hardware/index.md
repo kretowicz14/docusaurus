@@ -60,7 +60,7 @@ boneIO was designed to work with star topology. That means, that you have dedica
 
 Here you can find some info how to plan this kind of electrical instalation:
 
-<iframe src="https://www.youtube.com/embed/6winSE5_7IE" frameborder="0" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" width="640" height="480"></iframe>
+<iframe src="https://www.youtube.com/embed/6winSE5_7IE" frameBorder="0" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" width="640" height="480"></iframe>
 
 ## Board labels
 

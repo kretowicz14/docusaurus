@@ -9,9 +9,9 @@ title: Case
 
 This is a 3D model of the case with electronic components assembly.
 
-<iframe src="https://myhub.autodesk360.com/ue28f460a/g/shares/SH9285eQTcf875d3c5392fc876974a3e3df6?viewState=NoIgbgDAdAjCA0IDeAdEAXAngBwKZoC40ARXAZwEsBzAOzXjQEMyzd1C0AWAMwBMBWCACMAzAE4AtAHYRQoRJ64REgByMxKiTH4iATEIBsjGGKmcpaAL4gAukA" allowfullscreen="true"
-webkitallowfullscreen="true" mozallowfullscreen="true"
-width="100%" height="480" frameborder="0"></iframe>
+<iframe src="https://myhub.autodesk360.com/ue28f460a/g/shares/SH9285eQTcf875d3c5392fc876974a3e3df6?viewState=NoIgbgDAdAjCA0IDeAdEAXAngBwKZoC40ARXAZwEsBzAOzXjQEMyzd1C0AWAMwBMBWCACMAzAE4AtAHYRQoRJ64REgByMxKiTH4iATEIBsjGGKmcpaAL4gAukA" allowFullScreen="true"
+webkitallowfullscreen="true" mozAllowFullScreen="true"
+width="100%" height="480" frameBorder="0"></iframe>
 
 ## Parts List
 
@@ -58,7 +58,7 @@ Other parts of the case are not so visible so it is not so important how to prin
 
 Below you can find timelapse of printint the front part of the case:
 
-<iframe src="https://www.youtube.com/embed/QjhMvNn7mG0" frameborder="0" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" width="640" height="480"></iframe>
+<iframe src="https://www.youtube.com/embed/QjhMvNn7mG0" frameBorder="0" allowFullScreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" width="640" height="480"></iframe>
 
 ## Assembling boards in case
 
@@ -68,7 +68,7 @@ Be very careful when connecting individual boards and avoid to shift the pins in
 
 Follow the instructions in this video to assemble the case with the boards.
 
-<iframe src="https://www.youtube.com/embed/KZuwtOQaxaY" frameborder="0" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" width="640" height="480"></iframe>
+<iframe src="https://www.youtube.com/embed/KZuwtOQaxaY" frameBorder="0" allowFullScreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" width="640" height="480"></iframe>
 
 ## Temperature distribution
 
