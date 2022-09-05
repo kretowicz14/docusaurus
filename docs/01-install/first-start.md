@@ -29,7 +29,7 @@ reboot
 
 ## Add uEnv to enable all possible PINS
 
-Edit `/boot/uEnv.txt` and uncomment following lines  (eg by using `nano`)
+Edit `/boot/uEnv.txt` and uncomment following lines (eg by using `nano`)
 
 ```bash
 disable_uboot_overlay_video=1
@@ -59,7 +59,7 @@ There are 2 ways to install BoneIO app.
 
 ## Semi auto installation
 
-Follow on screen instruction.
+Follow on screen instruction. If you read `-devX` version of the docs this way of installation won't work!
 
 ```bash
 bash -c "$(wget -qLO - https://github.com/boneIO-eu/app_bbb/raw/main/install_script.sh)"
@@ -77,7 +77,7 @@ Let's assume installing as default debian user in home directory and Python 3.7 
 mkdir ~/boneio
 python3 -m venv ~/boneio/venv
 source ~/boneio/venv/bin/activate
-pip3 install --upgrade boneio
+pip3 install boneIO==0.5.0.dev1
 cp ~/venv/lib/python3.7/site-packages/boneio/example_config/*.yaml ~/boneio/
 ```
 
