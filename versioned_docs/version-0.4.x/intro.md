@@ -72,11 +72,6 @@ name: 'LM75 temp sensor',
 url: 'configuration/lm75',
 },
 {
-img: '/img/ds2482.png',
-name: 'DS2482 bus',
-url: 'configuration/ds2482',
-},
-{
 img: '/img/ds18b20.png',
 name: 'Dallas DS18B20',
 url: 'configuration/dallas',
