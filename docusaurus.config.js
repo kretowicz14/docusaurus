@@ -62,14 +62,13 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
           editUrl: 'https://github.com/boneIO-eu/docusaurus/tree/main/',
           // lastVersion: 'current',
           lastVersion: '0.4.x',
           includeCurrentVersion: true,
           versions: {
             current: {
-              label: `0.5.x-dev1`,
+              label: `0.5.x-dev`,
             },
           },
         },
