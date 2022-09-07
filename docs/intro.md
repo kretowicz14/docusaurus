@@ -62,6 +62,11 @@ url: 'configuration/cover',
 
 <YamlComponentsTable elements={[
 {
+img: '/img/filter.png',
+name: 'Filters option',
+url: 'configuration/filters',
+},
+{
 img: '/img/modbus_sensors.png',
 name: 'Modbus sensors',
 url: 'configuration/modbus-sensors',

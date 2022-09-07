@@ -29,16 +29,22 @@ dallas:
   id: mydallas
 
 sensor:
-  - id: temperature
+  - platform: dallas
+    id: temperature
     address: 0x6e0300a279d76428
     bus_id: mydallas
     update_interval: 60s
+    filters:
+      - round: 2
+      - offset: 5
 ```
 
 ## Configuration variables:
 
+- **platform** (**Required**, string, default: dallas) - currently only Dallas is supported in platform variable. Define it to avoid problems in future versions.
 - **id** (_Optional_, string, default: Address of I2C device) - uniquely identifies this device in MQTT and Home Assistant
 - **address** (**Required**, int) - Address of Dallas device
 - **bus_id** (Optional, string) - DS2482 id defined in ds2482 section or dallas id. Default to Dallas bus id.
 - **show_in_ha** (_Optional_, boolean, default: True) - Send autodiscovery message to Home Assistant.
 - **update_interval** (_Optional_, timeperiod, default: 60 seconds) - how often this sensor should update
+- **filters** (_Optional_, list, default: `- round: 2`) - filter list. See [Filters](filters) to learn more.

@@ -65,6 +65,8 @@ Follow on screen instruction. If you read `-devX` version of the docs this way o
 bash -c "$(wget -qLO - https://github.com/boneIO-eu/app_bbb/raw/main/install_script.sh)"
 ```
 
+,
+
 ## Manual installation
 
 **Preffered way.**
@@ -74,11 +76,13 @@ Let's assume installing as default debian user in home directory and Python 3.7 
 ### Prepare VENV
 
 ```bash
-mkdir ~/boneio
-python3 -m venv ~/boneio/venv
-source ~/boneio/venv/bin/activate
+export BONEIOPATH=~/boneio
+mkdir $BONEIOPATH
+python3 -m venv $BONEIOPATH/venv
+source $BONEIOPATH/venv/bin/activate
+pip3 install --upgrade pip
 pip3 install boneIO==0.5.0.dev1
-cp ~/venv/lib/python3.7/site-packages/boneio/example_config/*.yaml ~/boneio/
+cp $BONEIOPATH/venv/lib/python3.7/site-packages/boneio/example_config/*.yaml $BONEIOPATH/
 ```
 
 Now edit `~/boneio/config.yaml`
@@ -86,6 +90,7 @@ Now edit `~/boneio/config.yaml`
 ### Run manually with debug flag
 
 ```bash
+# export BONEIOPATH=~/boneio
 source ~/boneio/venv/bin/activate
 boneio run -c ~/boneio/config.yaml -dd
 ```
