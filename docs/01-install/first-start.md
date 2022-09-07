@@ -81,7 +81,7 @@ mkdir $BONEIOPATH
 python3 -m venv $BONEIOPATH/venv
 source $BONEIOPATH/venv/bin/activate
 pip3 install --upgrade pip
-pip3 install boneIO==0.5.0.dev1
+pip3 install boneIO==0.5.0.dev2
 cp $BONEIOPATH/venv/lib/python3.7/site-packages/boneio/example_config/*.yaml $BONEIOPATH/
 ```
 
