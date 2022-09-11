@@ -14,6 +14,9 @@ const config = {
   favicon: 'img/favicon.ico',
   organizationName: 'boneio-eu', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
+  customFields: {
+    sponsorLink: 'https://github.com/sponsors/maciejkrasuski',
+  },
   plugins: [
     // require.resolve('docusaurus-plugin-image-zoom'),
     [
@@ -118,19 +121,20 @@ const config = {
             position: 'left',
             activeBaseRegex: `/hardware/`,
           },
+
           { to: '/blog', label: 'Blog', position: 'left' },
           {
             type: 'docsVersionDropdown',
             position: 'right',
           },
           {
-            href: 'https://github.com/boneio-eu/boneIO',
-            label: 'GitHub',
+            href: '/sponsor',
+            label: 'Sponsor',
             position: 'right',
           },
           {
-            href: 'https://github.com/sponsors/maciejkrasuski',
-            label: 'Sponsor us!',
+            href: 'https://github.com/boneio-eu/boneIO',
+            label: 'GitHub',
             position: 'right',
           },
         ],
