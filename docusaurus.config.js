@@ -17,6 +17,7 @@ const config = {
   customFields: {
     sponsorLink: 'https://github.com/sponsors/maciejkrasuski',
   },
+  trailingSlash: false,
   plugins: [
     // require.resolve('docusaurus-plugin-image-zoom'),
     [
