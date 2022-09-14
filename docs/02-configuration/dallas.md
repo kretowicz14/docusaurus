@@ -47,4 +47,5 @@ sensor:
 - **bus_id** (Optional, string) - DS2482 id defined in ds2482 section or dallas id. Default to Dallas bus id.
 - **show_in_ha** (_Optional_, boolean, default: True) - Send autodiscovery message to Home Assistant.
 - **update_interval** (_Optional_, timeperiod, default: 60 seconds) - how often this sensor should update
+- **unit_of_measurement** (_Optional_, string, default: `°C`) - unit of measurement of the sensor. This does not make any math to switch between units!
 - **filters** (_Optional_, list, default: `- round: 2`) - filter list. See [Filters](filters) to learn more.
