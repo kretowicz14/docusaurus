@@ -67,12 +67,12 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl: 'https://github.com/boneIO-eu/docusaurus/tree/main/',
-          lastVersion: 'current',
-          // lastVersion: '0.4.x', change to 0.5.x when next dev
+          // lastVersion: 'current',
+          lastVersion: '0.5.x', //change to 0.5.x when next dev
           includeCurrentVersion: true,
           versions: {
             current: {
-              label: `0.5.x`,
+              label: `0.6.x_dev`,
             },
           },
         },
