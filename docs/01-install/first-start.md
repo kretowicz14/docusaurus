@@ -24,7 +24,7 @@ sudo apt-get update && sudo apt-get dist-upgrade
 ```
 
 ```bash
-reboot
+sudo reboot
 ```
 
 ## Add uEnv to enable all possible PINS
@@ -46,13 +46,13 @@ sudo systemctl disable bonescript-autorun nginx wpa_supplicant bonescript.socket
 ```
 
 ```bash
-reboot
+sudo reboot
 ```
 
 ## Install dependencies
 
 ```bash
-sudo apt-get install libopenjp2-7-dev libatlas-base-dev python3-venv
+sudo apt-get install libopenjp2-7-dev libatlas-base-dev python3-venv libjpeg-dev zlib1g-dev
 ```
 
 There are 2 ways to install BoneIO app.

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 9
+sidebar_position: 13
 ---
 
 # Output module
@@ -7,11 +7,10 @@ sidebar_position: 9
 ![Output](/img/output.png)
 
 Expander used in relay board. You likely must have this configured.
-By default one relay board has 2 MCP23017 installed.
 
 ## Example config
 
-```yaml title="Example config"
+```yaml title="Example config for MCP23017"
 output:
   - id: kitchenlight
     kind: mcp
@@ -20,6 +19,19 @@ output:
     output_type: light
     restore_state: True
 ```
+
+```yaml title="Example config for PCA9685"
+output:
+  - id: kitchenlight
+    kind: pca
+    pca_id: pca1
+    pin: 15
+    output_type: led
+    restore_state: True
+    percentage_default_brightness: 1
+```
+
+You can mix outputs in one configuration file, or you can split them to more than one file - [check configuration how to load yaml files](/docs/next/configuration).
 
 ## Configuration variables:
 
@@ -30,3 +42,6 @@ output:
 - **momentary_turn_on** (Optional, timeperiod) - Time period after relay will be turned off. Examples 50ms, 500ms, 5s, 20mins, 2hours
 - **momentary_turn_off** (Optional, timeperiod) - Time period after relay will be turned on. Examples 50ms, 500ms, 5s, 20mins, 2hours
 - **restore_state** (_Optional_, boolean, default: False) - You can enable restore_state option. It's bit experimental. It saves state of relay or cover in `state.json` file, which is located in same directory as your `config.json`. **If `output_type` is None, then this value is overwritten to False!**
+
+### PCA9685 only:
+- **percentage_default_brightness** (_Required_, integer, default: 1) - This option allow for pca make default brightness value when you just turn on the output from for example home assistant app. When you set brightness by chose value in home assistant it will set brightens that what you pick by app.
